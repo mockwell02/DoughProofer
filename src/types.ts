@@ -4,6 +4,7 @@ export interface ProoferRating {
   storageSize: number;
   durability: number;
   easeOfClean: number;
+  versatility: number;
 }
 
 export interface AffiliateLink {

@@ -11,7 +11,8 @@ export const proofers: Proofer[] = [
       internalCapacity: 9,
       storageSize: 5,
       durability: 8,
-      easeOfClean: 9
+      easeOfClean: 9,
+      versatility: 8
     },
     averageRating: 8,
     description: [
@@ -39,7 +40,8 @@ export const proofers: Proofer[] = [
       internalCapacity: 3,
       storageSize: 8,
       durability: 7,
-      easeOfClean: 6
+      easeOfClean: 6,
+      versatility: 7
     },
     averageRating: 6,
     description: [
@@ -57,26 +59,27 @@ export const proofers: Proofer[] = [
       }
     ]
   },
-    {
+  {
     id: 3,
-    name: "Professional Dough Proofer XL",
-    brand: "Brod & Taylor",
-    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    name: "Premium Pro Baker Box",
+    brand: "KitchenMaster",
+    imageUrl: "/logos/Mallroof-Bread-Proofing-Box-min.png",
     ratings: {
-      price: 7,
-      internalCapacity: 9,
-      storageSize: 5,
-      durability: 8,
-      easeOfClean: 9
+      price: 8,
+      internalCapacity: 7,
+      storageSize: 6,
+      durability: 9,
+      easeOfClean: 8,
+      versatility: 9
     },
-    averageRating: 8,
+    averageRating: 8.5,
     description: [
-      "Precise Temperature Control For Perfect Results",
-      "Foldable Design For Easy Storage",
-      "Large Internal Capacity",
-      "Easy-to-clean Stainless Steel Interior"
+      "Multi-zone Temperature Control",
+      "Smart WiFi Connectivity",
+      "Professional-grade Construction",
+      "Built-in Steam Generation"
     ],
-    price: 299.99,
+    price: 449.99,
     affiliateLinks: [
       {
         name: "Amazon",
@@ -85,26 +88,27 @@ export const proofers: Proofer[] = [
       }
     ]
   },
-    {
+  {
     id: 4,
-    name: "Professional Dough Proofer XL",
-    brand: "Brod & Taylor",
-    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    name: "EcoProof Basic",
+    brand: "GreenBake",
+    imageUrl: "/logos/Meudid-Bread-Proofing-Mat-min.png",
     ratings: {
-      price: 7,
-      internalCapacity: 9,
-      storageSize: 5,
-      durability: 8,
-      easeOfClean: 9
+      price: 9,
+      internalCapacity: 4,
+      storageSize: 9,
+      durability: 6,
+      easeOfClean: 7,
+      versatility: 5
     },
-    averageRating: 8,
+    averageRating: 6.5,
     description: [
-      "Precise Temperature Control For Perfect Results",
-      "Foldable Design For Easy Storage",
-      "Large Internal Capacity",
-      "Easy-to-clean Stainless Steel Interior"
+      "Eco-friendly Materials",
+      "Ultra-compact Design",
+      "Basic Temperature Control",
+      "Perfect for Beginners"
     ],
-    price: 299.99,
+    price: 89.99,
     affiliateLinks: [
       {
         name: "Amazon",
@@ -113,26 +117,27 @@ export const proofers: Proofer[] = [
       }
     ]
   },
-    {
+  {
     id: 5,
-    name: "Professional Dough Proofer XL",
-    brand: "Brod & Taylor",
-    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    name: "Commercial ProMax 2000",
+    brand: "BakeElite",
+    imageUrl: "/logos/KJLYLPP-40L-Electric-Dough-Proofer-Machine-min.png",
     ratings: {
-      price: 7,
-      internalCapacity: 9,
-      storageSize: 5,
-      durability: 8,
-      easeOfClean: 9
+      price: 4,
+      internalCapacity: 10,
+      storageSize: 3,
+      durability: 9,
+      easeOfClean: 7,
+      versatility: 9
     },
-    averageRating: 8,
+    averageRating: 8.8,
     description: [
-      "Precise Temperature Control For Perfect Results",
-      "Foldable Design For Easy Storage",
-      "Large Internal Capacity",
-      "Easy-to-clean Stainless Steel Interior"
+      "Industrial-grade Performance",
+      "Multiple Rack System",
+      "Advanced Humidity Control",
+      "24/7 Operation Capability"
     ],
-    price: 299.99,
+    price: 899.99,
     affiliateLinks: [
       {
         name: "Amazon",
@@ -141,26 +146,27 @@ export const proofers: Proofer[] = [
       }
     ]
   },
-    {
+  {
     id: 6,
-    name: "Professional Dough Proofer XL",
-    brand: "Brod & Taylor",
-    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    name: "SmartProof Connect",
+    brand: "TechBake",
+    imageUrl: "/logos/Jabbus-Electric-Heating-Proofing-Basket-min.png",
     ratings: {
-      price: 7,
-      internalCapacity: 9,
-      storageSize: 5,
+      price: 6,
+      internalCapacity: 6,
+      storageSize: 7,
       durability: 8,
-      easeOfClean: 9
+      easeOfClean: 8,
+      versatility: 9
     },
-    averageRating: 8,
+    averageRating: 7.8,
     description: [
-      "Precise Temperature Control For Perfect Results",
-      "Foldable Design For Easy Storage",
-      "Large Internal Capacity",
-      "Easy-to-clean Stainless Steel Interior"
+      "Mobile App Control",
+      "Recipe Integration",
+      "Smart Notifications",
+      "Custom Program Storage"
     ],
-    price: 299.99,
+    price: 349.99,
     affiliateLinks: [
       {
         name: "Amazon",
@@ -169,26 +175,27 @@ export const proofers: Proofer[] = [
       }
     ]
   },
-    {
+  {
     id: 7,
-    name: "Professional Dough Proofer XL",
-    brand: "Brod & Taylor",
-    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    name: "ArtisanPro Mini",
+    brand: "CraftBake",
+    imageUrl: "/logos/molgayol-Bread-Dough-Proofing-Box-min.png",
     ratings: {
-      price: 7,
-      internalCapacity: 9,
-      storageSize: 5,
-      durability: 8,
-      easeOfClean: 9
+      price: 8,
+      internalCapacity: 5,
+      storageSize: 8,
+      durability: 7,
+      easeOfClean: 9,
+      versatility: 6
     },
-    averageRating: 8,
+    averageRating: 7.2,
     description: [
-      "Precise Temperature Control For Perfect Results",
-      "Foldable Design For Easy Storage",
-      "Large Internal Capacity",
-      "Easy-to-clean Stainless Steel Interior"
+      "Compact Yet Professional",
+      "Precise Temperature Control",
+      "Energy Efficient",
+      "Portable Design"
     ],
-    price: 299.99,
+    price: 159.99,
     affiliateLinks: [
       {
         name: "Amazon",
@@ -197,26 +204,27 @@ export const proofers: Proofer[] = [
       }
     ]
   },
-    {
+  {
     id: 8,
-    name: "Professional Dough Proofer XL",
-    brand: "Brod & Taylor",
-    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    name: "UltraProof Station",
+    brand: "ProBaker",
+    imageUrl: "/logos/Raisenne-Dough-Riser-min.png",
     ratings: {
-      price: 7,
-      internalCapacity: 9,
-      storageSize: 5,
-      durability: 8,
-      easeOfClean: 9
+      price: 5,
+      internalCapacity: 8,
+      storageSize: 4,
+      durability: 9,
+      easeOfClean: 8,
+      versatility: 8
     },
-    averageRating: 8,
+    averageRating: 7.9,
     description: [
-      "Precise Temperature Control For Perfect Results",
-      "Foldable Design For Easy Storage",
-      "Large Internal Capacity",
-      "Easy-to-clean Stainless Steel Interior"
+      "Dual-zone Control",
+      "Professional LED Display",
+      "Heavy-duty Construction",
+      "Rapid Heat Technology"
     ],
-    price: 299.99,
+    price: 549.99,
     affiliateLinks: [
       {
         name: "Amazon",
@@ -224,5 +232,5 @@ export const proofers: Proofer[] = [
         logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
       }
     ]
-  },
+  }
 ];

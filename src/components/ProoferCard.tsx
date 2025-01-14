@@ -46,6 +46,7 @@ export const ProoferCard: React.FC<ProoferCardProps> = ({ proofer }) => {
             <RatingBar rating={proofer.ratings.storageSize} label="Storage Size" />
             <RatingBar rating={proofer.ratings.durability} label="Durability" />
             <RatingBar rating={proofer.ratings.easeOfClean} label="Ease of Clean" />
+            <RatingBar rating={proofer.ratings.versatility} label="Versatility" />
           </div>
 
           <div className="mt-4">
