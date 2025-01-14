@@ -5,7 +5,7 @@ export const proofers: Proofer[] = [
     id: 1,
     name: "Folding Proofer Box",
     brand: "Brod & Taylor",
-    imageUrl: "/logos/brod-and-taylor-proofing-box-min.png",
+    imageUrl: "/logos/Accent-roofing-service-logo.png",
     ratings: {
       price: 6,
       internalCapacity: 9,
