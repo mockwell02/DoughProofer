@@ -65,7 +65,7 @@ export const ProoferCard: React.FC<ProoferCardProps> = ({ proofer }) => {
               <div className="text-sm text-gray-600">View offer on:</div>
               <div className="flex items-center justify-end gap-4">
                 <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" 
+                  src={proofer.affiliateLinks[0].logo}
                   alt="Amazon logo"
                   className="h-6 object-contain"
                 />

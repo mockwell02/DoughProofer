@@ -5,7 +5,7 @@ export const proofers: Proofer[] = [
     id: 1,
     name: "Professional Dough Proofer XL",
     brand: "Brod & Taylor",
-    imageUrl: "https://images.unsplash.com/photo-1589985270958-a911b4926f7a?auto=format&fit=crop&q=80&w=400",
+    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
     ratings: {
       price: 7,
       internalCapacity: 9,
@@ -56,5 +56,173 @@ export const proofers: Proofer[] = [
         logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
       }
     ]
-  }
+  },
+    {
+    id: 3,
+    name: "Professional Dough Proofer XL",
+    brand: "Brod & Taylor",
+    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    ratings: {
+      price: 7,
+      internalCapacity: 9,
+      storageSize: 5,
+      durability: 8,
+      easeOfClean: 9
+    },
+    averageRating: 8,
+    description: [
+      "Precise Temperature Control For Perfect Results",
+      "Foldable Design For Easy Storage",
+      "Large Internal Capacity",
+      "Easy-to-clean Stainless Steel Interior"
+    ],
+    price: 299.99,
+    affiliateLinks: [
+      {
+        name: "Amazon",
+        url: "#",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+      }
+    ]
+  },
+    {
+    id: 4,
+    name: "Professional Dough Proofer XL",
+    brand: "Brod & Taylor",
+    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    ratings: {
+      price: 7,
+      internalCapacity: 9,
+      storageSize: 5,
+      durability: 8,
+      easeOfClean: 9
+    },
+    averageRating: 8,
+    description: [
+      "Precise Temperature Control For Perfect Results",
+      "Foldable Design For Easy Storage",
+      "Large Internal Capacity",
+      "Easy-to-clean Stainless Steel Interior"
+    ],
+    price: 299.99,
+    affiliateLinks: [
+      {
+        name: "Amazon",
+        url: "#",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+      }
+    ]
+  },
+    {
+    id: 5,
+    name: "Professional Dough Proofer XL",
+    brand: "Brod & Taylor",
+    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    ratings: {
+      price: 7,
+      internalCapacity: 9,
+      storageSize: 5,
+      durability: 8,
+      easeOfClean: 9
+    },
+    averageRating: 8,
+    description: [
+      "Precise Temperature Control For Perfect Results",
+      "Foldable Design For Easy Storage",
+      "Large Internal Capacity",
+      "Easy-to-clean Stainless Steel Interior"
+    ],
+    price: 299.99,
+    affiliateLinks: [
+      {
+        name: "Amazon",
+        url: "#",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+      }
+    ]
+  },
+    {
+    id: 6,
+    name: "Professional Dough Proofer XL",
+    brand: "Brod & Taylor",
+    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    ratings: {
+      price: 7,
+      internalCapacity: 9,
+      storageSize: 5,
+      durability: 8,
+      easeOfClean: 9
+    },
+    averageRating: 8,
+    description: [
+      "Precise Temperature Control For Perfect Results",
+      "Foldable Design For Easy Storage",
+      "Large Internal Capacity",
+      "Easy-to-clean Stainless Steel Interior"
+    ],
+    price: 299.99,
+    affiliateLinks: [
+      {
+        name: "Amazon",
+        url: "#",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+      }
+    ]
+  },
+    {
+    id: 7,
+    name: "Professional Dough Proofer XL",
+    brand: "Brod & Taylor",
+    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    ratings: {
+      price: 7,
+      internalCapacity: 9,
+      storageSize: 5,
+      durability: 8,
+      easeOfClean: 9
+    },
+    averageRating: 8,
+    description: [
+      "Precise Temperature Control For Perfect Results",
+      "Foldable Design For Easy Storage",
+      "Large Internal Capacity",
+      "Easy-to-clean Stainless Steel Interior"
+    ],
+    price: 299.99,
+    affiliateLinks: [
+      {
+        name: "Amazon",
+        url: "#",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+      }
+    ]
+  },
+    {
+    id: 8,
+    name: "Professional Dough Proofer XL",
+    brand: "Brod & Taylor",
+    imageUrl: "/logos/azw-dough-proofing-basket-min.png",
+    ratings: {
+      price: 7,
+      internalCapacity: 9,
+      storageSize: 5,
+      durability: 8,
+      easeOfClean: 9
+    },
+    averageRating: 8,
+    description: [
+      "Precise Temperature Control For Perfect Results",
+      "Foldable Design For Easy Storage",
+      "Large Internal Capacity",
+      "Easy-to-clean Stainless Steel Interior"
+    ],
+    price: 299.99,
+    affiliateLinks: [
+      {
+        name: "Amazon",
+        url: "#",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+      }
+    ]
+  },
 ];
