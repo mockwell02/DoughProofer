@@ -34,7 +34,7 @@ export const proofers: Proofer[] = [
     id: 2,
     name: "Bread Proofer Warming Mat",
     brand: "Meudid",
-    imageUrl: "/logos/Meudid-Bread-Proofing-Mat-min.png",
+    imageUrl: "/logos/azw-dough-proofing-basket.jpg",
     ratings: {
       price: 9,
       internalCapacity: 4,
