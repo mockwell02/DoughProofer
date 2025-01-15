@@ -31,6 +31,9 @@ export const Footer: React.FC = () => {
           <p className="mb-4">
             Amazon, Amazon Prime, the Amazon logo and Amazon Prime logo are trademarks of Amazon.com, Inc. or its affiliates.
           </p>
+          <p className="mb-4">
+            Disclosure: As an Amazon Associate, I earn from qualifying purchases. Some links on this page are affiliate links, earning me a commission if you make a purchase.
+          </p>
           <p>
             Copyright © 2025 by DoughProofingBox.com
           </p>
