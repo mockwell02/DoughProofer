@@ -18,13 +18,14 @@ export const ProoferCard: React.FC<ProoferCardProps> = ({ proofer }) => {
   const [bgColor, textColor] = ratingColorClass.split(' ');
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
+    <article className="bg-white rounded-lg shadow-lg p-6 mb-6">
       <div className="flex gap-6">
         <div className="w-48 h-48 flex-shrink-0">
           <img 
             src={proofer.imageUrl} 
-            alt={proofer.name}
+            alt={`${proofer.name} by ${proofer.brand}`}
             className="w-full h-full object-cover rounded-lg"
+            loading="lazy"
           />
         </div>
         
@@ -50,7 +51,7 @@ export const ProoferCard: React.FC<ProoferCardProps> = ({ proofer }) => {
           </div>
 
           <div className="mt-4">
-            <h3 className="font-semibold text-gray-700 mb-3">Why we love it</h3>
+            <h3 className="font-semibold text-gray-700 mb-3">Key Features</h3>
             <ul className="space-y-2">
               {proofer.description.map((point, index) => (
                 <li key={index} className="flex items-start text-gray-600">
@@ -69,12 +70,14 @@ export const ProoferCard: React.FC<ProoferCardProps> = ({ proofer }) => {
                   src={proofer.affiliateLinks[0].logo}
                   alt="Amazon logo"
                   className="h-6 object-contain"
+                  loading="lazy"
                 />
                 <a
                   href={proofer.affiliateLinks[0].url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
+                  aria-label={`See pricing for ${proofer.name} on Amazon`}
                 >
                   See Pricing
                 </a>
@@ -83,6 +86,6 @@ export const ProoferCard: React.FC<ProoferCardProps> = ({ proofer }) => {
           </div>
         </div>
       </div>
-    </div>
+    </article>
   );
 };

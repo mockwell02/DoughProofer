@@ -7,13 +7,24 @@ import { AboutUs } from './pages/AboutUs';
 import { TermsOfService } from './pages/TermsOfService';
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { Info } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => (
-  <div className="space-y-6">
-    {proofers.map(proofer => (
-      <ProoferCard key={proofer.id} proofer={proofer} />
-    ))}
-  </div>
+  <>
+    <Helmet>
+      <title>Best Dough Proofers | Expert Reviews & Ratings</title>
+      <meta name="description" content="Compare the top dough proofers with our comprehensive reviews and ratings. Find the perfect proofing solution for your bread making needs." />
+    </Helmet>
+    <div className="space-y-6">
+      <div className="mb-8">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">Best Dough Proofers On The Market</h1>
+        <p className="text-lg text-gray-600">Compare the top dough proofers with detailed reviews, ratings, and expert recommendations to find the perfect match for your baking needs.</p>
+      </div>
+      {proofers.map(proofer => (
+        <ProoferCard key={proofer.id} proofer={proofer} />
+      ))}
+    </div>
+  </>
 );
 
 export default function App() {
