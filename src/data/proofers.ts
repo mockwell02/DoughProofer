@@ -34,7 +34,7 @@ export const proofers: Proofer[] = [
     id: 2,
     name: 'Bread Proofer Warming Mat',
     brand: 'Meudid',
-    imageUrl: '/logos/azw-dough-proofing-basket.jpg',
+    imageUrl: '/logos/azw-dough-proofing-basket.png',
     ratings: {
       price: 9,
       internalCapacity: 4,
@@ -63,7 +63,7 @@ export const proofers: Proofer[] = [
     id: 3,
     name: 'XL Dough Riser Proofing Mat',
     brand: 'Raisenne',
-    imageUrl: '/logos/Raisenne-Dough-Riser-min.png',
+    imageUrl: '/logos/Raisenne-Dough-Riser.png',
     ratings: {
       price: 6,
       internalCapacity: 5,
@@ -92,7 +92,7 @@ export const proofers: Proofer[] = [
     id: 4,
     name: 'Folding Dough Proofing Box',
     brand: 'Mallroof',
-    imageUrl: '/logos/Mallroof-Bread-Proofing-Box-min.png',
+    imageUrl: '/logos/Mallroof-Bread-Proofing-Box.png',
     ratings: {
       price: 9,
       internalCapacity: 4,
@@ -121,7 +121,7 @@ export const proofers: Proofer[] = [
     id: 5,
     name: 'Folding Dough Proofing Box',
     brand: 'Molgayol',
-    imageUrl: '/logos/molgayol-Bread-Dough-Proofing-Box-min.png',
+    imageUrl: '/logos/molgayol-Bread-Dough-Proofing-Box.png',
     ratings: {
       price: 8,
       internalCapacity: 4,
@@ -150,7 +150,7 @@ export const proofers: Proofer[] = [
     id: 6,
     name: '40L Electric Dough Proofer Machine',
     brand: 'KJLYLPP',
-    imageUrl: '/logos/KJLYLPP-40L-Electric-Dough-Proofer-Machine-min.png',
+    imageUrl: '/logos/KJLYLPP-40L-Electric-Dough-Proofer-Machine.png',
     ratings: {
       price: 5,
       internalCapacity: 10,
@@ -179,7 +179,7 @@ export const proofers: Proofer[] = [
     id: 7,
     name: 'Silicone Bread Proofing Basket',
     brand: 'AZW',
-    imageUrl: '/logos/azw-dough-proofing-basket-min.png',
+    imageUrl: '/logos/azw-dough-proofing-basket.png',
     ratings: {
       price: 10,
       internalCapacity: 4,
@@ -208,7 +208,7 @@ export const proofers: Proofer[] = [
     id: 8,
     name: 'Electric Heating Bread Proofing Basket',
     brand: 'Jabbus',
-    imageUrl: '/logos/Jabbus-Electric-Heating-Proofing-Basket-min.png',
+    imageUrl: '/logos/Jabbus-Electric-Heating-Proofing-Basket.png',
     ratings: {
       price: 9,
       internalCapacity: 4,
